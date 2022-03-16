@@ -1,0 +1,341 @@
+                                                                                                                                                                                 
+                                                                                                                                                                                            HTML  TASKS :
+Question 1 :Fix the bugs in below snippet.
+
+   <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+correct code : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Guvi</title>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <div>
+        Guvi Geek Network
+    </div>
+    
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------
+Question 2 :Fix the bugs in below snippet.
+
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+correct code : 
+
+<html lang="en">
+
+<head>
+<title>Document Guvi</title>
+</head>
+
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+    <div>
+        Guvi Geek Network
+    </div>    
+</body>
+
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q3.Design a contact us form with all fields as required.
+
+code:
+
+<body>
+    <h3><u style="background-color: yellowgreen;">Contact us Form :</u></h3>
+    <div style="border: 5px; background-color: aqua;padding:15px;">
+        <form action="">
+            <label for="First name">First Name : </label> 
+            <input type="text"> <br> <br>
+            <label for="Last name">Last Name :</label>
+            <input type="text"> <br> <br>
+            <label for="Email">Email Addr : </label>
+            <input type="text"><br> <br> <br> <br>
+
+            <label for="Message">Message :</label>
+            <textarea  cols="25" rows="4" placeholder="Type your message...">
+            </textarea> <br><br>    
+            <button style="background: violet; color: black;" >submit</button>
+        </form>
+    </div>
+</body>
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q4. Use certain HTML elements to display the following in a HTML page.
+
+code :
+
+<div>
+        <ul>
+            <li>Programming Language</li>
+            <ol><li type="circle">JavaScript</li></ol>
+            <ol type="a">
+                <li>Angular</li>
+                <li>React</li>
+                <li>Vue.js</li><br>
+            </ol>
+            <ol><li type="circle">Python</li></ol> 
+            <ol type="a">
+                <li>Django Framework</li>
+                <li>Flask Framework</li>
+            </ol><br>
+            <ol><li type="circle">Java</li></ol>
+            <ol type="a">
+                <li>Spring</li>
+                <li>Maven</li>
+                <li>Hibernate</li>
+            </ol><br>
+            <li>Database</li>
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Cansandra</li>
+            </ul>
+        </ul>
+    </div>
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q 5.Create an element that helps you to open the https://google.com in separate new tab.
+
+code :
+
+<a href=" https://google.com" target="_blank">Google Search</a>
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business).
+
+code:
+
+ <label for="Emp Occu">Employee Occupation :</label><br> <br>
+        Salaried : <input type="radio" name="employee"> 
+        Own Business : <input type="radio" name="employee">
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q7. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png).
+
+code :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact us Form</title>
+
+    <style>
+#div-1,#div-2{
+display: flex;
+gap: 30px;
+}
+.inp{
+border-left: 0;
+border-top: 0;
+border-right: 0;
+}
+input[value]{
+font-style: oblique;
+text-align: center;
+}
+#picture{
+background-color: white;
+border: 5px solid black;
+padding: 10px;
+height: 350px;
+width: 800px;
+margin: 10%;
+
+}
+    </style>
+
+</head>
+<body>
+            <div id="picture">
+                <div style="background: orangered;
+                color:white;font-size: 30px;" >Yes! I want to subscribe to <span>Mag-O-Zine</span></div>
+                <br>
+                <div id="div-1">
+                    <div><input class="inp" type="text" value="Joe"> <br> 
+                        <small>First Name</small>
+                    </div>  
+                    <div><input class="inp" type="text" value="Schmegeggie"> <br> <small>Last name</small></div>
+                </div>
+            
+                <div><input class="inp" type="text" value="1001 Washington street"> <br> <small>Address</small></div>
+            
+                <div id="div-2">
+                    <div><input class="inp" type="text" value="Aufour"> <br><small>City</small></div>
+                    <div><input class="inp" type="text" value="ggggg"> <br><small>Zip</small></div>
+                    <div><input class="inp" type="text" value="CA"> <br><small>State</small></div>
+                </div>
+                 <br><br>
+                <b>
+                    Subscribe for: 
+                    <input type="checkbox"name="form" checked>1 year ($19.95)
+                    <input type="checkbox" name="form"> 2 years ($35.00) 
+                <br> <br>
+                Send me more information about: <br> 
+                                              <input type="checkbox" name="form" checked>Computer-Zine <br>
+                                              <input type="checkbox" name="form">Fishing-Zine <br>
+                                              <input type="checkbox" name="form" checked>Cat-O-Zine
+                </b>
+            </div>
+            </body>
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q8.Use the table tag to design given image Click here.
+
+code :
+
+ <thead> <u style="padding-left: 170px;">Health Chart</u> </thead> <br> <br>
+       <table border="3px" cellspacing="0px" cellpadding="7px" 
+       style="text-align: center;">
+           <tr>
+               <td rowspan="2">Star of Health</td>
+               <td>Fasting Value</td>
+               <td colspan="2">After Eating</td>
+           </tr>
+           <tr>
+               <td>Minimum</td>
+               <td>Maximum</td>
+               <td>2 hours after eating</td>
+           </tr>
+           <tr>
+               <td>Healthy</td>
+               <td>70</td>
+               <td>100</td>
+               <td>Less than 140</td>
+           </tr>
+           <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+           </tr>
+           <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+           </tr>
+       </table> <br> <br>
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q9.Write HTML input tags snippet to show default values for all Form elements.
+
+code:
+
+<form action="">
+        <pre>
+        <input type="text" value="Enter your name"> <br>
+        <input type="tel" value="1234567890"> <br>
+        <input type="color" value="black"> <br>
+        <input type="email" value="Guvi@gmail.com"> <br>
+        <input type="password" value="abc@123"> <br>
+        <input type="button" value="button"> <br>
+        <input type="submit" value="submit"><br>
+        <input type="reset" value="reset">
+        <input type="radio" value="radio button"> <br>
+        <input type="checkbox" value="checked">
+        </pre>
+    </form>
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q 10.In your, HTML page add the below line and Highlight it without using any CSS.
+"HTML & CSS is awesome".
+
+code:
+ <ul>
+           <li><q>HTML & CSS is awesome</q></li>
+       </ul>
+------------------------------------------------------------------------------------------------------------------------------------------------
+Q 11.Create an HTML page, which should contain all types of input elements.
+
+code :
+
+<form action="">
+         <table>
+             <tr><td>First Name: <input type="text"></td></tr> 
+             <tr><td>Last Name : <input type="text"></td></tr> 
+             <tr><td>Email Id: <input type="email"></td></tr>
+             <tr><td>Enter your password : <input type="password"></td></tr>
+             <tr><td>Enter your Age : <input type="number"></td></tr>
+             <tr><td>Enter your D.O.B : <input type="date"></td></tr>
+             <tr><td>
+                 Gender : <input type="radio" name="gender">Male 
+                <input type="radio" name="gender">Female
+            </td></tr>
+             <tr><td>
+                 Favourite sports : 
+            <input type="checkbox">Cricket
+            <input type="checkbox">Volleyball
+            <input type="checkbox">Football
+            </td></tr>
+            <tr><td>Website URL : <input type="url"placeholder="Enter web address.."></td></tr>
+            <tr><td>Choose file: <input type="file"></td></tr>
+            <tr><td><input type="search"><button>Search here</button></td></tr>
+            <tr><td>Select your range: <input type="range"></td></tr>
+            <tr><td>Select your Fav color : <input type="color"></td></tr>
+            <tr><td><input type="button" value="SUBMIT">
+                <input type="button" value="Reset">
+            </td></tr>
+         </table>
+               
+        </form>
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
